@@ -19,7 +19,7 @@ rm -rf /tmp/oracle-instantclient/instantclient*
 ln -s /opt/oracle/instantclient/libclntsh.so.12.2 /opt/oracle/instantclient/libclntsh.so
 ln -s /opt/oracle/instantclient/libocci.so.12.2 /opt/oracle/instantclient/libocci.so
 
-cp ./tnsname.ora /opt/oracle/instantclient
+cp ./tnsnames.ora /opt/oracle/instantclient
 
 cd ~/
 
